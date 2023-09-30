@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\Grokking Algorithms\Binary Search\Project1\main.cpp(41,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Grokking Algorithms\Binary Search\Project1\main.cpp(13): message : see reference to function template instantiation 'int *generateArray<400>(void)' being compiled
+  Project1.vcxproj -> E:\Grokking Algorithms\Binary Search\Debug\Project1.exe
