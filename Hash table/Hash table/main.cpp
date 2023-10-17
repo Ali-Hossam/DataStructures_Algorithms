@@ -5,13 +5,13 @@ void printTable(HashTable& table);
 int main()
 {
 	HashTable table;
-	table.addItem("Banana", 20);
-	table.addItem("tnanana", 20);
-	table.addItem("Bana", 30);
-	table.addItem("sanana", 20);
-	table.addItem("anana", 20);
+	table.addItem("Banana", 20.5);
+	table.addItem("Potato", 10);
+	table.addItem("Tomato", 30);
+	table.addItem("Peach", 12);
+	table.addItem("Orange", 26);
 	printTable(table);
-	table.removeItem("Bana");
+	table.removeItem("Peach");
 	printTable(table);
 	std::cout << table.getPrice("Banana");
 	return 0;
